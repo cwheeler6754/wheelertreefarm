@@ -1,0 +1,132 @@
+html {
+    background-color: #ffebeb;
+}
+h1, h2 {
+    color: #ecffeb;
+    text-align: center;
+}
+h1, .contacth2 {
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: #ba0c0c;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+span {
+    color: red;
+    background-color: whitesmoke;
+}
+.contacth2 {
+    padding: 0%;
+    margin: 0%;
+}
+header {
+    text-align: center;
+    background: url('../media/background-1292962_1280_2_200x200.png'), repeat;
+}
+ul {
+    padding-bottom: 1%;
+    padding-right: 2.75%;
+}
+li {
+    display: inline;
+}
+.salesizes {
+    display: list-item;
+    font-size: larger;
+    margin-left: 20%;
+    color: #ffebeb;
+    line-height: 150%;
+}
+li a {
+    color: #2a850e;
+    background-color: #ffebeb;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+li a:hover {
+    background-color: #ecffeb;
+    color: #ba0c0c;
+}
+body {
+    background-color: #2d661b;
+}
+p {
+    font-size: larger;
+    text-indent: 50px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: #ecffeb;
+    line-height: 200%;
+}
+.indexp {
+    text-align: center;
+}
+.salesp {
+    font-size: x-large;
+    text-align: center;
+    text-indent: 0px;
+}
+.indeximages {
+    background-color: #ecffeb;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.salesimg {
+    width: 90%;
+    margin-left: 15%;
+}
+.salesimg2 {
+    width: 50%;
+    margin-left: 20%;
+}
+* {
+    box-sizing: border-box;
+} 
+.img-container {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.column {
+    float: left;
+    width: 33.33%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+fieldset {
+    color: white;
+}
+label {
+    display: inline;
+    font-size: x-large;
+}
+label, textarea, button {
+    margin-left: 33%;
+}
+input, button {
+    font-size: larger;
+}
+.contactlink {
+    text-decoration: none;
+    color: #ba0c0c;
+    background-color: #2a850e;
+}
+footer {
+    text-align: center;
+    font-size: large;
+    color: white;
+    background-color: #ba0c0c;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
